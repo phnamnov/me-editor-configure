@@ -21,7 +21,6 @@
 (menu-bar-mode -1)
 
 (setq-default message-log-max nil)
-(kill-buffer "*Messages*")
 
 (setq line-number-mode t)
 (setq column-number-mode t)
@@ -41,3 +40,6 @@
  )
 
 (set-face-attribute 'default t :font "DejaVu Sans Mono-12")
+
+(setq inhibit-startup-screen t)
+(setq inhibit-splash-screen t)
